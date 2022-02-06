@@ -1,0 +1,38 @@
+[
+	{
+		"id": 1,
+		"title": "Philadelphia hit roll",
+		"inBox": 6,
+		"weight": 180,
+		"price": 130,
+		"imgSrc": "philadelphia.jpg",
+		"imgAlt": "Philadelphia hit roll"
+	},
+	{
+		"id": 2,
+		"title": "California tempura",
+		"inBox": 6,
+		"weight": 205,
+		"price": 150,
+		"imgSrc": "california-tempura.jpg",
+		"imgAlt": "California tempura"
+	},
+	{
+		"id": 3,
+		"title": "Sealed California Roll",
+		"inBox": 6,
+		"weight": 182,
+		"price": 110,
+		"imgSrc": "zapech-california.jpg",
+		"imgAlt": "Sealed California Roll"
+	},
+	{
+		"id": 4,
+		"title": "Philadelphia",
+		"inBox": 6,
+		"weight": 230,
+		"price": 160,
+		"imgSrc": "philadelphia.jpg",
+		"imgAlt": "Philadelphia"
+	}
+]

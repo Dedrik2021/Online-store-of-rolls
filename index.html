@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Online store of rolls</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<img class="logo" src="img/logo/logo.svg" width="92" alt="Rolls">
+			<div class="site-title">Rolls delivery</div>
+			<p class="lead">Prompt and delicious</p>
+		</div>
+	</header>
+
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="row" id="products-container">
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card mb-4">
+					<div class="card-body">
+						<h2 class="card-title">Your order</h2>
+
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Cart is empty
+						</div>
+						<div class="cart-wrapper">
+
+						</div>
+						<div class="cart-total">
+							<p data-cart-delivery class="none">
+								<span class="h5">Delivery:</span>
+								<span class="delivery-cost free">100 Kč</span><br>
+								<span class="small" data-orders>Free for orders over 400 Kč</span>
+							</p>
+							<p><span class="h5">Total:</span>
+								<span class="total-price">0</span>
+								<span class="rouble">Kč</span></p>
+						</div>
+
+					</div>
+
+					<div id="order-form" class="card-body border-top none">
+						<h3 class="card-title">Checkout order</h3>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Your phone number">
+							</div>
+							<button type="submit" class="btn btn-primary">To order</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/main.js"></script>
+
+</body>
+</html>
